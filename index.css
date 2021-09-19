@@ -1,3 +1,5 @@
+ /*PAGE 1
+ ------------------------------------------------------*/
 /*Reset
 ------------------------------------------------------*/
 *{ 
@@ -78,7 +80,7 @@ ul{
     width: 900px;
 }
 
-/*MAIN
+/*START MAIN
 ------------------------------------------------------*/
 .main{
     padding: 30px 0;
@@ -120,7 +122,7 @@ ul{
 ------------------------------------------------------*/
 .articles {
     background-color: rgb(180, 199, 206);
-    padding: 15px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -143,7 +145,7 @@ ul{
  }
 
 .articles .content .articles-column:nth-of-type(1){
-    float: right;
+    float: left;
  }
 
 .articles .content .articles-column:nth-of-type(2){
@@ -159,5 +161,24 @@ ul{
 ------------------------------------------------------*/
 .footer .content{
     margin-top: 30px;
+    text-align: center;  
+}
+
+ /*PAGE 2
+------------------------------------------------------*/
+
+ /*START HEADER
+------------------------------------------------------*/
+.main2 .content{
+    padding-top: 20px;
+    padding-bottom: 20px;
     
 }
+
+.main2 .main2-column{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+
